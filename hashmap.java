@@ -8,7 +8,7 @@ class HashFun {
         map.put("hello", 3);
         map.put("hii", 4);
         for (Map.Entry<String, Integer> m : map.entrySet())
-
+        // iteration of hashmap
         {
             System.out.println(m.getKey() + " " + m.getValue());
         }
